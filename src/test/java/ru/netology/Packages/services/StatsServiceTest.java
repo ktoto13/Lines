@@ -11,7 +11,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;
 
-        int actual = service.SumAllSales(sales);
+        int actual = service.sumAllSales(sales);
 
         Assertions.assertEquals(expected, actual);
 
@@ -24,7 +24,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 15;
 
-        int actual = service.AvgSumSales(sales);
+        int actual = service.avgSumSales(sales);
 
         Assertions.assertEquals(expected, actual);
 
